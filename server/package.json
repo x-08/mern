@@ -21,6 +21,8 @@
     "mongoose": "^7.4.0",
     "morgan": "^1.10.0",
     "path": "^0.12.7",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1"
   }
 }

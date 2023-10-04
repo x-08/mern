@@ -1,7 +1,7 @@
 {
   "name": "mern-template",
   "version": "1.0.0",
-  "description": "A Mern template to get you up and running",
+  "description": "A SaaS template to get you up and running",
   "main": "index.js",
   "workspaces": [
     "client",
@@ -15,19 +15,10 @@
     "test:server": "cd server && jest",
     "test": "npm run test:client && npm run test:server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tim-Quattrochi/MERN-Starter.git"
-  },
   "keywords": [
     "MERN"
   ],
-  "author": "Tim Quattrochi",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Tim-Quattrochi/MERN-Starter/issues"
-  },
-  "homepage": "https://github.com/Tim-Quattrochi/MERN-Starter#readme",
   "dependencies": {
     "concurrently": "^8.2.0",
     "react-router-dom": "^6.14.2"
